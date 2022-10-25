@@ -14,6 +14,6 @@ export default {
   protocol: 'https',
   url:'https://cloudflare-ipfs.com/ipfs/',
   headers: {
-    authorization: 'Basic ' + Buffer.from("2GM9JzqHaCOYjYViRkzTg3F8loD" + ':' + "24ceeea239a51d0e068d20801dfc22d3").toString('base64'),
+    authorization: 'Basic ' + Buffer.from("API PUBLIC KEY" + ':' + "API SECRET KEY").toString('base64'),
 },
 }
